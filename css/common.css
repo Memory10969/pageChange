@@ -1,0 +1,78 @@
+input[type='text'],input[type='date'],input[type='number']{
+	width: 180px;
+	height: 30px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+button{
+	width: 180px;
+	height: 30px;
+	border-width: 0px;
+	border-radius: 5px;
+	background-color: #e0e0e0;
+	margin-top: 10px;
+	margin-left: 80px;
+}
+
+
+span{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	margin: 50px 50px;
+	background-color: #F0F0F0;
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+}
+
+/** 列表**/
+
+table{
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 6px;
+    border:solid #6495ed 1px;
+    margin:50px auto;
+}
+
+table td, .main table th {
+    border-left: 1px solid #6495ed;
+    border-top: 1px solid #6495ed;
+    padding: 10px;
+    text-align: left;
+}
+
+table thead{
+    height: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #0000FF;
+    background-color: rgb(176,196,222);
+}
+
+tbody tr{
+    height: 18px;
+    line-height: 18px;
+}
+.page span{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.page span:not(.current){
+	background-color: lightblue;
+}
+
+.page span[class='current']{
+	background-color: rgb(19,209,190);
+}

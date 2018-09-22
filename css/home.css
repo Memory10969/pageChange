@@ -1,0 +1,236 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #d2dae9;
+}
+A, BODY, INPUT, SELECT, TABLE, TD, OPTION, TR {
+    font-family: "宋体", "MS SONG", "SimSun", "tahoma", "sans-serif";
+    font-size: 12px;
+}
+.page{margin:0 auto; width:900px; color:#666666;}
+.page  .nav{display:inline-block; width:900px; height:40px; background: #6495ed;margin-top: 0px;}
+.page  .nav span{float:left; margin-left:70px;margin-top: 10px;}
+.userInfo{
+    margin-right: 40px;
+    text-align: right;
+    font-size: 9px;
+}
+.STYLE2{
+    font-size:16px;
+    font-family:微软雅黑;
+    color: white;
+}
+
+.main{
+
+}
+
+.main h1{
+    text-align: center;
+}
+
+.main .rank{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/** 列表**/
+
+.main table{
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 6px;
+    border:solid #6495ed 1px;
+}
+
+.main table td, .main table th {
+    border-left: 1px solid #6495ed;
+    border-top: 1px solid #6495ed;
+    padding: 10px;
+    text-align: left;
+}
+
+.main table thead{
+    height: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #0000FF;
+    background-color: rgb(176,196,222);
+}
+
+.main tbody tr{
+    height: 18px;
+    line-height: 18px;
+}
+.main tbody tr:hover{
+    background-color: #EFFFD7;
+}
+
+/*左侧列表*/
+.page .margin_div .page_main{float:left; width:900px; margin-top:0px;margin-left:30px;}
+.page .margin_div .page_main .left_nav{float:left; width:154px; color:#666666;list-style-type: none; padding: 0px;}
+.page .margin_div .page_main .left_nav li{float:left; width:134px; height:34px; background: white;border-radius: 5px; line-height:34px;  text-indent:24px; margin: 10px 0;padding-left:25px ;cursor: pointer}
+
+/**添加页面 */
+.add .addleft{
+    margin-top: 10px;
+    display: inline-block;
+    width: 45%;
+    line-height: 30px;
+
+}
+.add .addright{
+    margin-top: 10px;
+    display: inline-block;
+    width: 45%;
+    line-height: 30px;
+}
+.add .addleft span{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    background-color: #B9B9FF;
+}
+.add .addright span{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    background-color: #B9B9FF;
+}
+.add input{
+    width: 200px;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 3px;
+    padding-left: 2px;
+}
+
+
+.add .buttons{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add .buttons button{
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: #6495ed;
+}
+
+
+/**编辑页面 */
+.edit .editleft{
+    margin-top: 10px;
+    display: inline-block;
+    width: 45%;
+    line-height: 30px;
+
+}
+.edit .editright{
+    margin-top: 10px;
+    display: inline-block;
+    width: 45%;
+    line-height: 30px;
+}
+.edit .editleft span{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    background-color: #B9B9FF;
+}
+.edit .editright span{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    background-color: #B9B9FF;
+}
+.edit input{
+    width: 200px;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 3px;
+    padding-left: 2px;
+}
+
+.edit .buttons{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.edit .buttons button{
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: #6495ed;
+}
+
+/**分页样式 */
+.fenye span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: #6A6AFF;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+}
+/*下拉框*/
+select{
+    width: 200px;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 3px;
+}
+/*查询*/
+.search{
+    margin: 10px 100px;
+    text-align: left;
+}
+.search span{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.search span input,.search span select{
+    width: 120px;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.search span button{
+    margin-left: 30px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+    background-color: #6495ed;
+}
+
+img{
+    cursor: pointer;
+}
+
+#result{
+    display: block;
+    width: 600px;
+    height: 300px;
+    margin-left: 400px;
+    margin-top: 30px;
+    border:1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
