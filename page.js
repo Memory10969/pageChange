@@ -16,7 +16,7 @@ $(function(){
 	function addData(){
 		// 生成数据
 		var start = currentPage*10-9;
-		var end = currentPage*10;
+		var end = currentPage*10>count?count:currentPage*10:;
 		$(".content").empty();
 		for(let i = start;i<=end;i++){
 			if(i%5==0){
