@@ -5,9 +5,11 @@ $(function(){
 	var totalPage;
 	//定义数据数组
 	var arr = [];
+	var count;
 	$("button").click(function(){
 		// 获取总页数,并向上取整
-		totalPage = Math.ceil(parseInt($("input[name='num']").val())/10);
+		count=$("input[name='num']").val();
+		totalPage = Math.ceil(parseInt(count)/10);
 		addData();
 		addPage();
 	})
