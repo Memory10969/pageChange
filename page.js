@@ -5,7 +5,7 @@ $(function(){
 	var totalPage;
 	//定义数据数组
 	var arr = [];
-	var count;
+	var count=0;
 	$("button").click(function(){
 		// 获取总页数,并向上取整
 		count=$("input[name='num']").val();
